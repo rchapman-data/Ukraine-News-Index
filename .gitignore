@@ -1,0 +1,27 @@
+# Raw / bulk data - fetch via scripts/fetch_data.py instead of committing
+data/raw/
+data/processed/
+*.csv
+
+# Embeddings / indexes (large, regenerable)
+*.faiss
+*.index
+embeddings/
+
+# Credentials / config
+.env
+.env.*
+*.pem
+aws-credentials*
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# OS / editor
+.DS_Store
+.vscode/
+
+docs/aws-setup.md
